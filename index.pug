@@ -2,9 +2,18 @@ doctype html
 html(lang="en")
   head
     meta(charset="utf-8")
-    meta(name="viewport" content="width=device-width, initial-scale=1")
+    meta#vp(name="viewport" content="width=device-width, initial-scale=1")
     title Lost Tribe
     link(rel="stylesheet" href="css/index.css")
+    script.
+      /*very bad no bueno hack*/
+      window.onload = function() {
+          if (screen.width < 600) {
+              var mvp = document.getElementById('vp');
+              mvp.setAttribute('content','user-scalable=no,width=600');
+          }
+      }
+
     script(src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous")
     script(src="js/index.js")
   body
