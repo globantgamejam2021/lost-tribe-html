@@ -1,14 +1,20 @@
+.timer {
+  position: absolute;
+  top: 12px;
+  left: 196px;
+  width: 120px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  .timer-container { position: relative; width: 100%; height: 100%; }
+}
+
 .countdown-timer {
-  top: 8px
-  left: 4px
-  width: 100%
-  text-align: center
-  color: #ffffff
-  font-size: 48px
-  font-family: '_numbers', 'Comic Sans MS'
+  position: relative;
   font-family: "_numbers";
   font-size: 32px;
-  color: #dec0f8;
   text-shadow:
     -4px -4px 0 #130622,
      0   -4px 0 #130622,
@@ -18,20 +24,11 @@
      0    4px 0 #130622,
     -4px  4px 0 #130622,
     -4px  0   0 #130622;
-  span {
-    position: absolute;
-    top: 8px;
-    left: 0;
-    z-index: -2;
+  .timer-a {
     color: #6b29a3;
   }
-  .timer
-        position: absolute
-        top: 8px
-        left: 4px
-        width: 100%
-        text-align: center
-        color: #ffffff
-        font-size: 48px
-        font-family: '_numbers', 'Comic Sans MS'
+  .timer-b {
+    color: #dec0f8;
+    margin-top: -52px;
+  }
 }

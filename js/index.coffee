@@ -13,9 +13,10 @@ jQuery ($) ->
 
   tick = ()->
     timeRemaining--
-    $('.timer').text(timeRemaining)
+    $('.timer-a').text(timeRemaining)
+    $('.timer-b').text(timeRemaining)
     if timeRemaining < 0 
-      alert('game over')
+      # alert('game over')
       clearInterval(intGame)
       intGame = null
 

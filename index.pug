@@ -16,7 +16,11 @@ html(lang="en")
       .start
     .screen.main
       img.background(src='img/level-01.png')
-      span.countdown-timer 20 #[span 20]
+      .timer
+        .countdown-timer 
+          .timer-container
+            .timer-a 20
+            .timer-b 20
       .container
         .character(data-index="0")
         .character(data-index="1")
