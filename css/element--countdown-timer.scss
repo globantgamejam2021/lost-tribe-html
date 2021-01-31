@@ -1,0 +1,37 @@
+.countdown-timer {
+  top: 8px
+  left: 4px
+  width: 100%
+  text-align: center
+  color: #ffffff
+  font-size: 48px
+  font-family: '_numbers', 'Comic Sans MS'
+  font-family: "_numbers";
+  font-size: 32px;
+  color: #dec0f8;
+  text-shadow:
+    -4px -4px 0 #130622,
+     0   -4px 0 #130622,
+     4px -4px 0 #130622,
+     4px  0   0 #130622,
+     4px  4px 0 #130622,
+     0    4px 0 #130622,
+    -4px  4px 0 #130622,
+    -4px  0   0 #130622;
+  span {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    z-index: -2;
+    color: #6b29a3;
+  }
+  .timer
+        position: absolute
+        top: 8px
+        left: 4px
+        width: 100%
+        text-align: center
+        color: #ffffff
+        font-size: 48px
+        font-family: '_numbers', 'Comic Sans MS'
+}
