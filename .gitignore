@@ -1,0 +1,5 @@
+*.html
+*.css
+js/*.js
+/prepros-6.config
+/prepros.config
