@@ -10,7 +10,7 @@ characters.shift()
 
 jQuery ($) ->
 	$('.screen').hide()
-	$('.screen.title').fadeIn()
+	$('.screen.collection').fadeIn()
 	# Prevent user from dragging images, because it sucks
 	$('img'). on 'dragstart', (e) ->
 		e.preventDefault()
