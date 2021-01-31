@@ -2,73 +2,73 @@
 @import 'numbers'
 @import 'element--countdown-timer'
 body
-  overflow: hidden
-  background: radial-gradient(ellipse at bottom, #252a36 0%, #171b27 100%)
-  display: grid
-  place-items: center
-  user-select: none
-  .screen
-    position: relative
-    height: 512px
-    width: 512px
-    .background
-      position: absolute
-      top: 0
-      left: 0
-    &.title
-      .start
-        position: absolute
-        top: 360px
-        left: 120px
-        width: 272px
-        height: 76px
-        background-image: url('../img/screen-00-button.png')
-        background-position: 0 0
-        background-repeat: no-repeat
-        cursor: pointer
-        &.clicked
-          background-position: -272px 0
-    &.tutorial
-      .start
-        position: absolute
-        top: 392px
-        left: 216px
-        width: 88px
-        height: 76px
-        background-image: url('../img/ui-btn--next.png')
-        background-position: 0 0
-        background-repeat: no-repeat
-        cursor: pointer
-        &.clicked
-          background-position: -88px 0
-    &.main
-      .container
-        display: grid
-        grid-template-columns: 1fr 1fr 1fr
-        grid-template-rows: 1fr 1fr 1fr
-        position: absolute
-        top: 95px
-        left: 80px
-        width: 370px
-        height: 410px
-      .wrap
-        position: relative
-        width: 104px
-        height: 124px
-      .tile
-        position: absolute
-        top: 0
-        left: 0
-        background-repeat: no-repeat
-        background-image: url('../img/level-tile.png')
-        width: 104px
-        height: 124px
-      .character
-        position: absolute
-        top: 2px
-        left: 0
-        width: 104px
-        height: 120px
-        background-position: 0 0
-        background-repeat: no-repeat
-        background-image: url('../img/character-level01-01.gif')
+	overflow: hidden
+	background: radial-gradient(ellipse at bottom, #252a36 0%, #171b27 100%)
+	display: grid
+	place-items: center
+	user-select: none
+	.screen
+		position: relative
+		height: 512px
+		width: 512px
+		.background
+			position: absolute
+			top: 0
+			left: 0
+		&.title
+			.start
+				position: absolute
+				top: 360px
+				left: 120px
+				width: 272px
+				height: 76px
+				background-image: url('../img/screen-00-button.png')
+				background-position: 0 0
+				background-repeat: no-repeat
+				cursor: pointer
+				&.clicked
+					background-position: -272px 0
+		&.tutorial
+			.start
+				position: absolute
+				top: 392px
+				left: 216px
+				width: 88px
+				height: 76px
+				background-image: url('../img/ui-btn--next.png')
+				background-position: 0 0
+				background-repeat: no-repeat
+				cursor: pointer
+				&.clicked
+					background-position: -88px 0
+		&.main
+			.container
+				display: grid
+				grid-template-columns: 1fr 1fr 1fr
+				grid-template-rows: 1fr 1fr 1fr
+				position: absolute
+				top: 95px
+				left: 80px
+				width: 370px
+				height: 410px
+			.wrap
+				position: relative
+				width: 104px
+				height: 124px
+			.tile
+				position: absolute
+				top: 0
+				left: 0
+				background-repeat: no-repeat
+				background-image: url('../img/level-tile.png')
+				width: 104px
+				height: 124px
+			.character
+				position: absolute
+				top: 2px
+				left: 0
+				width: 104px
+				height: 120px
+				background-position: 0 0
+				background-repeat: no-repeat
+				background-image: url('../img/character-level01-01.gif')
