@@ -1,0 +1,8 @@
+sound credits:
+
+06854 woman yuppie joy voices.wav by Robinhood76 (cc-by-nc)
+countdown.wav by tim.kahn (cc-by)
+game_over.wav by tim.kahn (cc-by)
+
+font: Nokia Cellphone FC by Zeh Fernando
+https://www.dafont.com/es/font-comment.php?file=nokia_cellphone
