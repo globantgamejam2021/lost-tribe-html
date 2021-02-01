@@ -108,7 +108,12 @@ body
             height: 100%
             img
               width: 100%
-          
+      .nav-buttons
+        position: absolute
+        left: 56px
+        top: 424px
+        width: 400px
+        height: 72px    
     &.main
       .container
         display: grid
@@ -140,3 +145,37 @@ body
         background-position: 0 0
         background-repeat: no-repeat
         background-image: url('../img/character-level01-01.gif')
+
+  .btn
+    height: 72px
+    padding-left: 40px
+    padding-right: 40px
+    display: flex
+    justify-content: center
+    align-items: center
+    color: #FFFFFF
+    flex-flow: row
+    .left, .right 
+      width: 20px
+      height: 72px
+      background-position: 0 0
+    .content
+      height: 72px
+      font-size: 18px
+      text-shadow: 0 4px 0 #2979b7
+      display: flex
+      justify-content: center
+      align-items: center
+      background-position: 0 0
+      background-repeat: repeat-x
+      background-image: url(../img/btn-bg-center.png)
+    .left
+      background-image: url(../img/btn-bg-left.png)
+    .right
+      background-image: url(../img/btn-bg-right.png)
+    &.click
+      .content
+        text-shadow: 0 4px 0 #57adc8
+      .left, .right, .content
+        background-position: 0 -72px
+        transform: translateY(4px)
